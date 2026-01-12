@@ -1,1 +1,14 @@
+def factorial(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return n * factorial(n-1)
+number = int(input("Enter a number:"))
+if number<0:
+    print("\nError: factorial is not defined for nagative numbers.")
+else:
+    result= factorial(number)
+    print(F"\n The factorial of {number} is {result}")
 
+    
+      
